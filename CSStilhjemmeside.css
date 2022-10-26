@@ -34,4 +34,26 @@ h1, h2, h3, h4, h5, p, a, .red {
 	
 }
 
+.animation{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	animation-name: test;
+	position: relative;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+.animation:hover {
+	background-color: orange;
+}
+@keyframes test{
+	0%{background-color: black; left: 0px; top: 0px; scale: 1;}
+	50%{background-color: violet; left: 200px; top: 0px; scale: 1;}
+	75%{background-color: blue; left: 200px; top: 200px; scale: 1;}
+	100%{background-color: black; left: 0px; top: 200px; scale: 1;}
+}
+
 
