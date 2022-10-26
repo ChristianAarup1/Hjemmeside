@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Dette er til at ændre baggrundsfarve på body */
+
+body {
+	background-color: grey;
+}
+
+* {
+	color: black;
+}
+
+.red {
+	color: red;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25pt;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	padding: 20px;
+	top: 0px;
+	right: 200px;
+	
+}
+
+h1, h2, h3, h4, h5, p, a, .red {
+	font-family: dream-big-narrow,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	
+}
+
+
