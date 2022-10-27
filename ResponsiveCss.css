@@ -21,7 +21,6 @@
     p {
 	background-color: white;
 	font-size: 25px;
-	margin: 10px;
 	text-align: center;
 }
 
@@ -32,8 +31,9 @@
 .grid {
 	display: inline-grid;
 	background-color: cadetblue;
-	grid-template-columns: 25% 50% 75%;
+	grid-template-columns: 200px 300px 500px;
 	grid-template-rows: 200px 200px;
+	gap: 10px;
 }
 
 body {
