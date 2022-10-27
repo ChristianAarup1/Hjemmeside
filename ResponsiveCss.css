@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	background-color: white;
+	font-size: 25px;
+	margin: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+.flexbox {
+	background-color: black;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: 
+		
+}
+
+body {
+	background-color: grey;
+}
+
+.a {
+	background-color: red;
+	width: 500px;
+	height: 50px;
+}
+
+.b {
+	background-color: blue;
+	width: 50%;
+	height: 50px;
+}
+
+.c {
+	background-color: black;
+	max-width: 500px;
+	height: 50px;
+}
+
+.d {
+	background-color: green;
+	min-width: 500px;
+	height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+	.a, .b, .c, .d {
+		width: 100px;
+		display: inline-block;
+}
+	.flexbox {
+		flex-direction: column;
+	}
+}
